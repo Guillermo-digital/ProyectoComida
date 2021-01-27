@@ -1,0 +1,72 @@
+/*
+font-family: 'Yusei Magic', sans-serif;
+#BF0426 rojo
+#E1D1AF crema gris
+#D98E04 naranjo
+#402617 cafe
+#590202 burdeo
+*/
+
+:root {
+    --letra:#E1D1AF;
+    --fondo:#590202;
+    --tituloprincipal:#D98E04;
+    --titulosecundario:#D98E04;
+    --especial:#BF0426;
+    --opcion:#402617;
+}
+* {
+    font-family: 'Yusei Magic', sans-serif;
+    color:#E1D1AF;
+}
+.bloque {
+    width: 90%;
+    max-width: 900px;
+    margin:auto;
+}
+nav {
+    height: 64px;
+    background-color:#BF0426;
+    
+}
+body{
+    background-color: #590202;
+}
+nav span {
+    display:inline-block;
+    text-align:center;
+    font-size: 16px;
+    vertical-align:top ;
+    line-height: 64px;
+    width:150px;
+    background-color:#402617 ;
+}
+nav span a{
+    text-decoration: none;
+    line-height: 64px;
+}
+nav span:hover {
+    background-color: brown;
+    box-shadow: 0px 8px 10px 4px;
+    position: relative;
+}
+nav img {
+    height: 64px;
+}
+div.fotocomida {
+    height:300px;
+    overflow:scroll;
+}
+div.focomida img{
+    height:10px;
+    width:100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
