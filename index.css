@@ -54,12 +54,11 @@ nav img {
     height: 64px;
 }
 div.fotocomida {
-    height:300px;
-    overflow:scroll;
+    height:400px;
 }
-div.focomida img{
-    height:10px;
-    width:100%;
+div.fotocomida img{
+    height:100%;
+    width: 100%;
     object-fit: cover;
 }
 
